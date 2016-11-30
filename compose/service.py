@@ -671,7 +671,7 @@ class Service(object):
             path=path,
             tag=self.image_name,
             stream=True,
-            rm=True,
+            rm=False,
             forcerm=force_rm,
             pull=pull,
             nocache=no_cache,
